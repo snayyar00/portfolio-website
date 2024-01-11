@@ -6,7 +6,6 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start"
-   
   },
   "dependencies": {
     "@react-email/components": "^0.0.7",
