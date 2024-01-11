@@ -15,7 +15,7 @@ export default function Blogs() {
       <div>
         {blogsData.map((blogs, index) => (
           <React.Fragment key={index}>
-            <Blog {...blogs} />
+            <Blog {...blogs} title={blogs.title} />
           </React.Fragment>
         ))}
       </div>

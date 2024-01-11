@@ -108,31 +108,31 @@ export const blogsData = [
     title: "Discover the Future: The Top 9 AI APIs of 2024 - A Deep Dive",
     description: "An insightful exploration into the most influential AI APIs of 2024, detailing their capabilities, innovations, and impact on the tech landscape.",
     tags: ["AI", "Technology", "Innovation"],
-    imageUrl: adleyImg, // Replace with actual image URL
+   
   },
   {
     title: "Goodbye Cookies, Hello Privacy? Google's New Approach to Online Tracking",
     description: "A critical analysis of Google's shift from cookies to a more privacy-centric approach for online tracking, examining its implications for users and marketers.",
     tags: ["Privacy", "Google", "Online Tracking"],
-    imageUrl: adleyImg, // Replace with actual image URL
+   
   },
   {
     title: "Cracking the Code: Mastering JavaScript Functions for Your Technical Interview (Part 2 Functions)",
     description: "Part 2 of a comprehensive guide to mastering JavaScript functions, aimed at helping developers ace their technical interviews with in-depth knowledge and practice.",
     tags: ["JavaScript", "Coding Interview", "Functions"],
-    imageUrl: adleyImg, // Replace with actual image URL
+   
   },
   {
     title: "Cracking the Code: One Night of Intense Preparation for Your Technical Interview in JavaScript (Part 1 Arrays)",
     description: "Part 1 of an intense, last-minute preparation guide for JavaScript technical interviews, focusing on array manipulations and problem-solving strategies.",
     tags: ["JavaScript", "Coding Interview", "Arrays"],
-    imageUrl: adleyImg, // Replace with actual image URL
+   
   },
   {
     title: "Launching My New SaaS, WebAbility.ca",
     description: "A personal narrative on the journey of launching WebAbility.ca, a SaaS platform dedicated to enhancing web accessibility, detailing challenges and achievements.",
     tags: ["SaaS", "WebAbility", "Startup Journey"],
-    imageUrl: adleyImg, // Replace with actual image URL
+    
   }
 ] as const;
 
