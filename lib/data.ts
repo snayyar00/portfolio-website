@@ -2,9 +2,11 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+
+import adleyImg from "@/public/adley.webp";
+import makecvImg from "@/public/makecv.webp";
+import vistabotsImg from "@/public/vistabots.webp";
+import webabilityImg from "@/public/webAbility.webp";
 
 export const links = [
   {
@@ -28,6 +30,10 @@ export const links = [
     hash: "#experience",
   },
   {
+    name: "Blogs",
+    hash: "#blogs",
+  },
+  {
     name: "Contact",
     hash: "#contact",
   },
@@ -35,54 +41,102 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
-    description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+    title: "Computer Science @ SFU",
+    location: "Vancouver, BC",
+    description: "Completed a BSc in Computer Science at SFU, gaining in-depth knowledge in data structures, algorithms, databases, operating systems, and software engineering. Achieved a GPA of 3.5+, demonstrating strong academic performance.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+    title: "Web Developer @ Pivot2020",
+    location: "Toronto, ON",
+    description: "Held a pivotal role in designing and developing user-friendly, responsive websites using HTML, CSS, and JavaScript. Managed full software development lifecycle for 9 websites, delivering projects on time and under budget. Enhanced UX scores and performance of existing websites significantly.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2020 - 2021",
+  },
+  {
+    title: "Full-Stack Developer @ Remitbee",
+    location: "Toronto, ON",
+    description: "Improved system performance and user experience at Remitbee. Replaced legacy systems with ReactJS and GraphQL, reducing loading times by 50%. Automated invoicing processes, enhancing efficiency and accuracy. Engaged in cross-functional teamwork for developing customer service systems.",
     icon: React.createElement(CgWorkAlt),
     date: "2019 - 2021",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+    title: "FrontEnd Developer @ Plug Exchange",
+    location: "Dubai, UAE",
+    description: "Transitioned to a full-stack role, specializing in technologies like React, Next.js, TypeScript, Tailwind, Prisma, and MongoDB. Focused on freelance projects, demonstrating adaptability and skill in developing advanced web applications. Open to full-time opportunities.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2022",
   },
+  {
+    title: "Full-Stack Developer @ Blaise Transit",
+    location: "Quebec, QC",
+    description: "Contributed to full-stack web application development using React.js, Node.js, Express.js, and MongoDB. Assisted in designing scalable systems and infrastructures, working collaboratively with diverse engineering teams. Focused on responsive UIs and effective data integration from back-end APIs.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2022 - present",
+  }
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
-    description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+    title: "WebAbility.io",
+    description: "A comprehensive solution focused on web accessibility compliance, ensuring adherence to WCAG and ADA standards. My role spanned across full-stack development, utilizing MongoDB, Node.js, and React.",
+    tags: ["MongoDB", "Node.js", "React"],
+    imageUrl: webabilityImg, // Replace with actual image URL
   },
   {
-    title: "rmtDev",
-    description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+    title: "Vistabots.ai",
+    description: "Involved in creating a GPT-powered live chat for online customer support, enabling rapid AI training and deployment. My contribution covered backend, frontend, and full-stack engineering skills.",
+    tags: ["MongoDB", "Node.js", "React"],
+    imageUrl: vistabotsImg, // Replace with actual image URL
   },
   {
-    title: "Word Analytics",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+    title: "Adley.ai",
+    description: "An AI content generator built with Reactjs, MongoDB, Nodejs, and JavaScript, deployed on AWS. Focused on incorporating AI features to enhance efficiency and user experience.",
+    tags: ["Reactjs", "MongoDB", "Nodejs", "JavaScript", "AWS"],
+    imageUrl: adleyImg, // Replace with actual image URL
   },
+  {
+    title: "Make-CV",
+    description: "A drag and drop resume and cover letter builder using PHP, Laravel, and MySQL. Aimed at providing a seamless user experience and helping users present their qualifications effectively to employers.",
+    tags: ["PHP", "Laravel", "MySQL"],
+    imageUrl: makecvImg, // Replace with actual image URL
+  }
 ] as const;
+
+export const blogsData = [
+  {
+    title: "Discover the Future: The Top 9 AI APIs of 2024 - A Deep Dive",
+    description: "An insightful exploration into the most influential AI APIs of 2024, detailing their capabilities, innovations, and impact on the tech landscape.",
+    tags: ["AI", "Technology", "Innovation"],
+    imageUrl: adleyImg, // Replace with actual image URL
+  },
+  {
+    title: "Goodbye Cookies, Hello Privacy? Google's New Approach to Online Tracking",
+    description: "A critical analysis of Google's shift from cookies to a more privacy-centric approach for online tracking, examining its implications for users and marketers.",
+    tags: ["Privacy", "Google", "Online Tracking"],
+    imageUrl: adleyImg, // Replace with actual image URL
+  },
+  {
+    title: "Cracking the Code: Mastering JavaScript Functions for Your Technical Interview (Part 2 Functions)",
+    description: "Part 2 of a comprehensive guide to mastering JavaScript functions, aimed at helping developers ace their technical interviews with in-depth knowledge and practice.",
+    tags: ["JavaScript", "Coding Interview", "Functions"],
+    imageUrl: adleyImg, // Replace with actual image URL
+  },
+  {
+    title: "Cracking the Code: One Night of Intense Preparation for Your Technical Interview in JavaScript (Part 1 Arrays)",
+    description: "Part 1 of an intense, last-minute preparation guide for JavaScript technical interviews, focusing on array manipulations and problem-solving strategies.",
+    tags: ["JavaScript", "Coding Interview", "Arrays"],
+    imageUrl: adleyImg, // Replace with actual image URL
+  },
+  {
+    title: "Launching My New SaaS, WebAbility.ca",
+    description: "A personal narrative on the journey of launching WebAbility.ca, a SaaS platform dedicated to enhancing web accessibility, detailing challenges and achievements.",
+    tags: ["SaaS", "WebAbility", "Startup Journey"],
+    imageUrl: adleyImg, // Replace with actual image URL
+  }
+] as const;
+
+
 
 export const skillsData = [
   "HTML",
@@ -105,3 +159,4 @@ export const skillsData = [
   "Django",
   "Framer Motion",
 ] as const;
+ 

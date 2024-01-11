@@ -19,31 +19,12 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
-        </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
-      </p>
+  After graduating with a degree in <span className="font-medium">Computer Science</span>, I embraced my passion for programming. My journey includes comprehensive learning in <span className="font-medium">full-stack web development</span> from a coding bootcamp. The <span className="italic">challenge of solving complex problems</span> in programming deeply fascinates me. I <span className="underline">thrive</span> on the thrill of finding solutions. My expertise lies in <span className="font-medium">React, Next.js, Node.js, and MongoDB</span>, and I'm proficient with TypeScript and Prisma. Continuously seeking to expand my skillset, I'm actively looking for a <span className="font-medium">full-time role</span> as a software developer.
+</p>
 
-      <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
-      </p>
+<p>
+  <span className="italic">Outside of coding</span>, my interests include playing video games, watching movies, and spending quality time with my dog. I am passionate about <span className="font-medium">learning and exploring new technologies</span> in the ever-evolving field of software development.
+</p>
     </motion.section>
   );
 }
