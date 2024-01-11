@@ -45,6 +45,7 @@ export const experiencesData = [
     location: "Vancouver, BC",
     description: "Completed a BSc in Computer Science at SFU, gaining in-depth knowledge in data structures, algorithms, databases, operating systems, and software engineering. Achieved a GPA of 3.5+, demonstrating strong academic performance.",
     icon: React.createElement(LuGraduationCap),
+    date: "2017 - 2021",
   },
   {
     title: "Web Developer @ Pivot2020",
