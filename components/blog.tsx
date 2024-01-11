@@ -5,9 +5,13 @@ import { projectsData } from "@/lib/data";
 import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
 
-type BlogProps = (typeof projectsData)[number];
+type BlogProps = {
+    title: string;
+    description: string;
+    tags: readonly string[]
+   };
 
-export default function Project({
+export default function Blog({
   title,
   description,
   tags,
