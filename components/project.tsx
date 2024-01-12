@@ -54,7 +54,7 @@ export default function Project({
             ))}
           </ul>
         </div>
-        </a>
+         </a>
         <Image
           src={imageUrl}
           alt="Project I worked on"
