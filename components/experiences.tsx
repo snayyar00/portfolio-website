@@ -13,7 +13,7 @@ export default function Experiences() {
     <section ref={ref} id="experience" className="scroll-mt-28 mb-28">
       <SectionHeading>My Experiences</SectionHeading>
       <div>
-        {experiencesData.map((experience, index) => (
+        {experiencesData.slice().reverse().map((experience, index) => (
           <React.Fragment key={index}>
             <Experience {...experience} />
           </React.Fragment>
