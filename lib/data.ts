@@ -111,6 +111,12 @@ export const projectsData = [
 
 export const blogsData = [
   {
+    title: "Which CMS is your go-to when building your startup?",
+    description: "A comprehensive guide to the best CMS platforms for startups, detailing their features, benefits, and drawbacks to help you make an informed decision.",
+    tags: ["Startup", "CMS", "JavaScript","BuildInPublic"],
+    link:"https://dev.to/snayyar00/which-cms-is-your-go-to-when-building-your-startup-jfe"
+  },
+  {
     title: "Discover the Future: The Top 9 AI APIs of 2024 - A Deep Dive",
     description: "An insightful exploration into the most influential AI APIs of 2024, detailing their capabilities, innovations, and impact on the tech landscape.",
     tags: ["AI", "Technology", "Innovation"],
