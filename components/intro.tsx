@@ -56,9 +56,8 @@ export default function Intro() {
       >
         <span className="font-bold">Hello, I'm Sidharth Nayyar.</span> I'm a{" "}
         <span className="font-bold">full-stack developer</span> with{" "}
-        <span className="font-bold">5+ years</span> of experience. I enjoy
-        building <span className="italic">sites & apps</span>. My focus is{" "}
-        <span className="underline">React.js & Node.js</span>.
+        <span className="font-bold">3+ years</span> of experience. Passionate about solving Real-World problems and building scalable <span className="italic">sites & apps</span>with{" "}
+        <span className="underline">React.js, Next.js, Redux, Node/Express, SQL/NoSQL</span>.
       </motion.h1>
 
       <motion.div

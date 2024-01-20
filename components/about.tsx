@@ -19,11 +19,7 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-  After graduating with a degree in <span className="font-medium">Computer Science</span>, I embraced my passion for programming. My journey includes comprehensive learning in <span className="font-medium">full-stack web development</span> from a coding bootcamp. The <span className="italic">challenge of solving complex problems</span> in programming deeply fascinates me. I <span className="underline">thrive</span> on the thrill of finding solutions. My expertise lies in <span className="font-medium">React, Next.js, Node.js, and MongoDB</span>, and I'm proficient with TypeScript and Prisma. Continuously seeking to expand my skillset, I'm actively looking for a <span className="font-medium">full-time role</span> as a software developer.
-</p>
-
-<p>
-  <span className="italic">Outside of coding</span>, my interests include playing video games, watching movies, and spending quality time with my dog. I am passionate about <span className="font-medium">learning and exploring new technologies</span> in the ever-evolving field of software development.
+      Dynamic Full Stack Developer with over 3 years of experience, specializing in creating engaging websites and applications. Expertise in React.js and Node.js, with a strong focus on developing user-centric digital solutions. Passionate about leveraging modern technologies to deliver impactful and cutting-edge web and app experiences.
 </p>
     </motion.section>
   );
